@@ -1,0 +1,11 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - mainDriver",
+            "request": "launch",
+            "mainClass": "com.stub.framework.driver.mainDriver",
+            "projectName": "Stubs_Framework"
+        }
+    ]
+}
