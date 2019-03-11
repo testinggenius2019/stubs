@@ -1,6 +1,6 @@
 pipeline {
 
-   // agent { label 'stubs-slave' }
+   //  agent { label 'stubs-slave' }
      agent any
 
      parameters {
