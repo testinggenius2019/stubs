@@ -55,6 +55,7 @@ public class EmployeeSalaryTrf extends ResponseDefinitionTransformer {
 
             return new ResponseDefinitionBuilder()
                     .withHeader("MyHeader", "Transformed")
+                    .withHeader("Content-Type", "application/json")
                     .withStatus(200)
                     .withBody("{\n" +
                             "  \"id\" : \"1\",\n" +
@@ -75,6 +76,7 @@ public class EmployeeSalaryTrf extends ResponseDefinitionTransformer {
         else {
             return new ResponseDefinitionBuilder()
                     .withHeader("MyHeader", "Transformed")
+                    .withHeader("Content-Type", "application/json")
                     .withStatus(200)
                     .withFixedDelay(50)
                     .withBody("{\n" +

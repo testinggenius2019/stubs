@@ -1,6 +1,7 @@
 pipeline {
 
-    agent { label 'stubs-slave' }
+   // agent { label 'stubs-slave' }
+     agent any
 
      parameters {
             booleanParam(defaultValue: false, description: 'Stop the stubs', name: 'StopStub')
